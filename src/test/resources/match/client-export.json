@@ -1,0 +1,22 @@
+{
+  "match_id": "m_300eb470fde2",
+  "match_time": "2026-10-08T10:00:00.123456Z",
+  "game_mode": "Bounty Hunt",
+  "map_name": "Mammon's Gulch",
+  "extracted": false,
+  "kills": 3,
+  "team_kills": 4,
+  "deaths": 1,
+  "assists": 2,
+  "team_wipes": 1,
+  "bounty_extracted": 100,
+  "mmr": 2500,
+  "mmr_change": -10,
+  "encountered_players": [
+    {
+      "name": "Enemy",
+      "mmr": 2600,
+      "downed_by_me": 1
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: hunt-server
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${DB_USERNAME:postgres}
+    password: 123456
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  sql:
+    init:
+      mode: never
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      repositories:
+        enabled: false
+
+steam:
+  web-api-key: ${STEAM_WEB_API_KEY:66DF9C7B1B88828927ADA77AE2A1014C}
+  base-domain: ${STEAM_BASE_DOMAIN:https://api.hunt1896.app}
+jwt:
+  # Base64-encoded random key containing at least 32 bytes; required at startup.
+  secret: ${JWT_SECRET:}
+  expiration: ${JWT_EXPIRATION:7d}
+mobile:
+  deep-link: ${MOBILE_DEEP_LINK:hunt1896://auth/steam}
+web:
+  return-url: ${WEB_RETURN_URL:https://hunt1896.app/auth/callback}
