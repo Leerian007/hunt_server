@@ -1,0 +1,11 @@
+{
+  "attributes_path": "",
+  "steam_directory": "",
+  "backend_base_url": "http://localhost:8080",
+  "sync_path": "/api/v1/matches/sync",
+  "session_path": "/api/v1/auth/session",
+  "token_env": "HUNT_SYNC_TOKEN",
+  "request_timeout_seconds": 15,
+  "state_file": "sync_state.json",
+  "upload_on_start": false
+}

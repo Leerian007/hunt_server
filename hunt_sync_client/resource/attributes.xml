@@ -1,0 +1,57 @@
+<Attributes Version="37">
+    <!-- 基础对局状态与地图模式 -->
+    <Attr name="MissionBagIsQuickPlay" value="false" />
+    <Attr name="MissionBagIsHunterDead" value="false" />
+    <Attr name="MissionBagIsExtract" value="true" />
+    <Attr name="MissionBagMapName" value="Mammon's Gulch" />
+    <Attr name="MissionBagNumTeams" value="4" />
+
+    <!-- 个人核心数据 -->
+    <Attr name="MissionBagNumKills" value="3" />
+    <Attr name="MissionBagNumAssists" value="1" />
+    <Attr name="MissionBagTeamKills" value="5" />
+    <Attr name="MissionBagTeamWipes" value="1" />
+    <Attr name="MissionBagBounty" value="1250" />
+    <Attr name="MissionBagPlayerMMR" value="2865" />
+    <Attr name="MissionBagPlayerMMRChange" value="18" />
+
+    <!-- 击倒与被杀互动记录 -->
+    <Attr name="MissionBagNumDowned" value="3" />
+    <Attr name="MissionBagNumDownedByMe" value="3" />
+    <Attr name="MissionBagNumKilledByMe" value="2" />
+    <Attr name="MissionBagNumDownedMe" value="0" />
+    <Attr name="MissionBagNumKilledMe" value="0" />
+
+    <!-- 同局遭遇玩家 0 (被击倒的敌方玩家) -->
+    <Attr name="MissionBagPlayer_0_0_name" value="CaldwellConnoisseur" />
+    <Attr name="MissionBagPlayer_0_0_mmr" value="2790" />
+    <Attr name="MissionBagPlayer_0_0_downed_by_me" value="2" />
+    <Attr name="MissionBagPlayer_0_0_killed_by_me" value="1" />
+    <Attr name="MissionBagPlayer_0_0_downed_me" value="0" />
+    <Attr name="MissionBagPlayer_0_0_killed_me" value="0" />
+    <Attr name="MissionBagPlayer_0_0_bountypickedup" value="true" />
+    <Attr name="MissionBagPlayer_0_0_bountyextracted" value="false" />
+
+    <!-- 同局遭遇玩家 1 (另一名敌方玩家) -->
+    <Attr name="MissionBagPlayer_0_1_name" value="BayouGhost_99" />
+    <Attr name="MissionBagPlayer_0_1_mmr" value="2910" />
+    <Attr name="MissionBagPlayer_0_1_downed_by_me" value="1" />
+    <Attr name="MissionBagPlayer_0_1_killed_by_me" value="1" />
+    <Attr name="MissionBagPlayer_0_1_downed_me" value="0" />
+    <Attr name="MissionBagPlayer_0_1_killed_me" value="0" />
+    <Attr name="MissionBagPlayer_0_1_bountypickedup" value="false" />
+    <Attr name="MissionBagPlayer_0_1_bountyextracted" value="false" />
+
+    <!-- 同局队友 0 -->
+    <Attr name="MissionBagPlayer_1_0_name" value="Sheriff_Hardin" />
+    <Attr name="MissionBagPlayer_1_0_mmr" value="2840" />
+    <Attr name="MissionBagPlayer_1_0_downed_by_me" value="0" />
+    <Attr name="MissionBagPlayer_1_0_killed_by_me" value="0" />
+    <Attr name="MissionBagPlayer_1_0_downed_me" value="0" />
+    <Attr name="MissionBagPlayer_1_0_killed_me" value="0" />
+    <Attr name="MissionBagPlayer_1_0_is_teammate" value="true" />
+
+    <!-- 队伍结算与赏金细节 -->
+    <Attr name="MissionBagTeam_0_bounty_extracted" value="0" />
+    <Attr name="MissionBagTeam_1_bounty_extracted" value="2" />
+</Attributes>

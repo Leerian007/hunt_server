@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+sync_state.json
+sync_state.json.tmp
+logs/
+.venv-build/
+build/
+dist/
+build-output.log

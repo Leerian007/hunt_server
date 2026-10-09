@@ -1,21 +1,22 @@
 package com.guxx.ray.ai.player;
 
+import com.guxx.ray.ai.common.SteamHttpClientFactory;
+import org.springframework.beans.factory.annotation.Value;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.client.JdkClientHttpRequestFactory;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.web.client.RestTemplate;
-import java.net.http.HttpClient;
 import java.time.Duration;
 
 @Configuration
 @EnableAsync
 public class PlayerConfiguration {
     @Bean
-    RestTemplate steamApiRestTemplate() {
-        var http = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(5))
-                .followRedirects(HttpClient.Redirect.NEVER).build();
+    RestTemplate steamApiRestTemplate(@Value("${steam.proxy-url:}") String proxyUrl) {
+        var http = SteamHttpClientFactory.create(proxyUrl);
         var factory = new JdkClientHttpRequestFactory(http);
         factory.setReadTimeout(Duration.ofSeconds(10));
         return new RestTemplate(factory);

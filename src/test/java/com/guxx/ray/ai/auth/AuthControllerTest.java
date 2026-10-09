@@ -17,6 +17,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WebMvcTest(value = AuthController.class,
         excludeAutoConfiguration = org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration.class,
         properties = {
+        "steam.base-domain=https://api.hunt1896.app", "web.return-url=https://hunt1896.app/auth/callback",
         "jwt.secret=dGVzdC1vbmx5LXNlY3JldC1rZXktMzItYnl0ZXMtbG9uZyE=", "jwt.expiration=7d"})
 @Import({AuthConfiguration.class, JwtService.class})
 class AuthControllerTest {

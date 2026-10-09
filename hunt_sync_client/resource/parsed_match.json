@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "match_hash": "8535cc9477d096feec27ebbc885865a8a3a7e69be4b10127f3e687707775e00d",
+  "metrics": {
+    "kills": 3,
+    "downs": 3,
+    "assists": 1,
+    "team_kills": 5,
+    "team_wipes": 1,
+    "bounty_extracted": 1250,
+    "mmr": 2865,
+    "mmr_change": 18,
+    "downed_by_me": 3,
+    "killed_by_me": 2,
+    "downed_me": 0,
+    "killed_me": 0,
+    "map_name": "Mammon's Gulch",
+    "extracted": true,
+    "hunter_dead": false,
+    "quick_play": false
+  },
+  "players": [
+    {
+      "slot": 0,
+      "member_index": 0,
+      "name": "CaldwellConnoisseur",
+      "mmr": 2790,
+      "kills": null,
+      "downs": null,
+      "killed_by_me": 1,
+      "downed_by_me": 2,
+      "killed_me": 0,
+      "downed_me": 0,
+      "bounty_picked_up": true,
+      "bounty_extracted": false,
+      "is_teammate": null
+    },
+    {
+      "slot": 0,
+      "member_index": 1,
+      "name": "BayouGhost_99",
+      "mmr": 2910,
+      "kills": null,
+      "downs": null,
+      "killed_by_me": 1,
+      "downed_by_me": 1,
+      "killed_me": 0,
+      "downed_me": 0,
+      "bounty_picked_up": false,
+      "bounty_extracted": false,
+      "is_teammate": null
+    },
+    {
+      "slot": 1,
+      "member_index": 0,
+      "name": "Sheriff_Hardin",
+      "mmr": 2840,
+      "kills": null,
+      "downs": null,
+      "killed_by_me": 0,
+      "downed_by_me": 0,
+      "killed_me": 0,
+      "downed_me": 0,
+      "bounty_picked_up": null,
+      "bounty_extracted": null,
+      "is_teammate": true
+    }
+  ],
+  "warnings": []
+}

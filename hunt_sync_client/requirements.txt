@@ -1,0 +1,11 @@
+# Windows runtime dependencies, including transitive dependencies.
+requests==2.34.2
+watchdog==6.0.0
+pystray==0.19.5
+Pillow==12.3.0
+pywin32==312; sys_platform == "win32"
+certifi==2026.7.22
+charset-normalizer==3.5.2
+idna==3.20
+urllib3==2.8.0
+six==1.17.0

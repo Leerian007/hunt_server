@@ -47,7 +47,8 @@ class SteamAuthServiceTest {
         params.set("openid.ns", "http://specs.openid.net/auth/2.0");
         params.set("openid.mode", "id_res");
         params.set("openid.op_endpoint", SteamAuthService.ENDPOINT);
-        params.set("openid.return_to", "https://api.hunt1896.app/api/v1/auth/steam/callback?platform=" + platform + "&state=" + STATE);
+//        params.set("openid.return_to", "https://api.hunt1896.app/api/v1/auth/steam/callback?platform=" + platform + "&state=" + STATE);
+        params.set("openid.return_to", "http://localhost:8080/api/v1/auth/steam/callback?platform=" + platform + "&state=" + STATE);
         params.set("openid.claimed_id", "https://steamcommunity.com/openid/id/76561198000000000");
         params.set("openid.identity", params.getFirst("openid.claimed_id"));
         params.set("openid.response_nonce", "2026-10-08T10:00:00Zunique");
